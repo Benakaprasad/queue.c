@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define size 10
 int front=0;
 int rear=-1;
 int queue[100];
