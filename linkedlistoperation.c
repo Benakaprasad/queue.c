@@ -8,10 +8,10 @@ struct node* link;
 struct node* create(int data)
 {
 struct node* head=NULL;
-struct node* node=malloc(sizeof(staruct* node));
+struct node* newnode=malloc(sizeof(struct node));
 printf("enter the data to the node");
-scanf("%d",&node->data);
-node->link=NULL;;
+scanf("%d",&newnode->data);
+newnode->link=NULL;
 return node;
 }
 void insert(struct node** head,int data)
@@ -48,12 +48,3 @@ insert(&head);
 display();
 return 0;
 }
-
-
-  
-
-
-
-
-
-
